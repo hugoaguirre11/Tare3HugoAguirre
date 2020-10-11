@@ -27,7 +27,7 @@ public class LoginTodoIstTest {
     @Test
     public void verifyTheLoginUsingUserAndPassword() throws InterruptedException {
         mainPage.singUpFreeButton.click();
-        loginMailPage.emailTextBox.type("Franco@hotmail.com");
+        loginMailPage.emailTextBox.type("Juanperez@hotmail.com");
         loginMailPage.signUpButton.click();
         loginNamePwdPage.fullNameTextBox.type("Francisco Castro");
         loginNamePwdPage.passwordTextBox.type("loro1234567");
